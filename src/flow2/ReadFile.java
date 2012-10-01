@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
 /**
- *
+ * @author Clara
  * @author Kirstine
  */
 public class ReadFile
