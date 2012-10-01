@@ -12,6 +12,14 @@ public class Person
     public int krea;
     public int fin;
 
+   @Override
+    public String toString() {
+        String res = "";
+        res += "Navn: " + getNavn()
+                + ": " + getAdm() + ", " + getAna() + ", " + getKrea() + ", " + getFin();
+        return res;
+    }
+    
     public String getNavn()
     {
         return navn;
@@ -62,5 +70,13 @@ public class Person
         this.fin = fin;
     }
     
-    
+     public Person(String navn, int adm, int ana, int krea, int fin)
+     {
+         this.navn = navn;
+         this.adm = adm;
+         this.ana = ana;
+         this.krea = krea;
+         this.fin = fin;
+                 
+     }
 }
